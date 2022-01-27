@@ -8,19 +8,24 @@ h1{
 .purple{
     color: rgb(172, 47, 172);
 }
-section{
+#wolf{
+    color: rgb(128, 30, 30);
+}
+.first-part{
     display: flex;
-    width: 50%;
     padding: 0px 100px;
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.x-men{
+    width: 50%;
 }
 p{
     text-align: justify;
 }
 .first-part img{
     padding-left: 170px;
-    width: 280%;
+    width: 68%;
 }
 .link-button{
     padding: 13px 30px;
@@ -29,4 +34,64 @@ p{
     font-weight:800;
     background: linear-gradient(brown,black);
     text-decoration: none;
+}
+.second-part{
+    margin-top: 130px;
+    display: flex;
+    padding: 0px 50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.james{
+    width: 50%;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+.second-part img{
+    width: 80%;
+}
+#header{
+    margin-top: 130px;
+}
+.last-part{
+    display: flex;
+    padding-left: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    border-image-slice: 1;
+}
+.kurt{
+    width: 50%;
+    padding: 50px 30px;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px 5px slateblue;
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, green);
+    border-image-slice: 1;
+}
+.jungkook{
+    width: 50%;
+    padding: 50px 30px; 
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px 5px rgb(133, 5, 133);
+    border-left: 5px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+#JK{
+    background-image: linear-gradient(blueviolet,purple);
+    padding: 13px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight:900;
+    font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+}
+#foot{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
 }
